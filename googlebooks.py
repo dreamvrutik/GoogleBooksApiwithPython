@@ -9,7 +9,7 @@ class MyCache(LRUCache):
 
 
 class gbooks():
-    googleapikey="AIzaSyCLrT2XE-CYEzOmQeE0pCRKxwq9X2DBQmg"
+    googleapikey="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
     def search(self, value):
         parms = {"q":value, 'key':self.googleapikey}
