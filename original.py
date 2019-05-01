@@ -24,7 +24,7 @@ class MyCache(LRUCache):
 cache=MyCache(maxsize=50)
 
 class gbooks():
-    googleapikey="AIzaSyCLrT2XE-CYEzOmQeE0pCRKxwq9X2DBQmg"
+    googleapikey="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     #displays all results given by the api on search page and creates necessary gui interfaces
     def search(self,value):
         start_time=datetime.datetime.utcnow()
